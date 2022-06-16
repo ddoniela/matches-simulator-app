@@ -13,10 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Simulator"
         tools:targetApi="31">
+
+
         <activity
-            android:name=".DetailActivity"
-            android:exported="true"
-            android:theme="@style/Theme.Simulator.NoActionBar">
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,10 +26,10 @@
         </activity>
 
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".DetailActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Simulator.NoActionBar"/>
 
-        </activity>
     </application>
 
 
