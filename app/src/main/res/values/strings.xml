@@ -6,4 +6,5 @@
 
 
     <string name="txt_versus" translatable="false">x</string>
+    <string name="error_api">Unexpected error.</string>
 </resources>
